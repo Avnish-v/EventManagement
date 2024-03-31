@@ -1,0 +1,51 @@
+:root {
+    --main-color: #3867d6;
+}
+
+.footer {
+    background: #111;
+}
+
+.footer .box-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 1.4rem; /* Updated font size */
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.2rem; /* Updated font size */
+    padding: 1rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a i {
+    padding-right: .5rem;
+    color: var(--main-color);
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 1.5rem;
+    color: #fff;
+}
+
+.footer .credit {
+    text-align: center;
+    border-top: .1rem solid #222;
+    color: #fff;
+    padding: 1rem; /* Adjusted padding */
+    padding-top: 1.5rem; /* Adjusted padding */
+    margin-top: 1rem;
+    font-size: 1.6rem; /* Updated font size */
+}
+
+.footer .credit span {
+    color: var(--main-color);
+}

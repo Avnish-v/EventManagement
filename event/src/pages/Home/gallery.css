@@ -1,0 +1,30 @@
+.hidegal {
+  display: none;
+}
+
+.img-container:hover .hidegal {
+  transition: 2ms;
+  display: block;
+}
+.img-container:hover .hide {
+  transition: 2ms ease-in-out;
+  display: flex;
+}
+
+.img-container:hover .img {
+  transition: 2ms; /* Transition for height change */
+  height: 180px; /* Corrected syntax */
+  background-size: 120%; /* Increase background size on hover */
+  transition: background-size 2s ease; 
+} 
+
+.customList li::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-size: cover; /* Adjust as needed */
+  display: inline-block;
+  background-color: transparent;
+  margin-right: 10px;
+  background-image: url("../../assets/res/check.svg");
+}
