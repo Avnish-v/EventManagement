@@ -16,5 +16,6 @@ export const Icons  = {
     reject :  require("./res/reject.png"),
     confirm : require("./res/confirm.png"),
     pending :require("./res/download.png"),
-    eye:require("./res/eye.png")
+    eye:require("./res/eye.png"),
+    QR:require("./res/Qr.jpeg")
 }

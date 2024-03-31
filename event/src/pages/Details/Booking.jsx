@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { CreateBooking, GetEventId } from "../../service";
+import { Icons } from "../../assets";
 
 const Booking = () => {
 const Navigate  =  useNavigate()
@@ -55,7 +56,7 @@ const [date,  setDate] =  useState()
     calculateTotalPrice();
   },[person , foodType])
   return (
-    <div className="m-24 bg-[#000000] h-[89vh] rounded-lg p-6">
+    <div className="m-24 bg-[#000000]  rounded-lg p-6">
       <p className="text-center text-3xl font-bold text-secondary-50">
         Booking {data?.eventName} Event Plan Type  {state?.name}
       </p>
@@ -157,6 +158,13 @@ const [date,  setDate] =  useState()
         setDesc(e.target.value);
       }}
     />
+  </div>
+  <div className="flex flex-col gap-4 w-full">
+    <label className="text-lg">Advance Payment</label>
+    <div className="flex justify-center">
+
+    <img src={Icons.QR} width={100} height={100} />
+    </div>
   </div>
 
   <div className="flex justify-center">
