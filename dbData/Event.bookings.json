@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "66091bb51f1fb20844545f99"
+  },
+  "plan": "ultimate",
+  "user": {
+    "$oid": "66007bc814baff4a3500fe39"
+  },
+  "event": "Babyshower ",
+  "status": "confirmed",
+  "bookingDate": {
+    "$date": "2024-04-04T08:15:00.000Z"
+  },
+  "total": "136000",
+  "alternative": {
+    "$numberLong": "8169930419"
+  },
+  "branch": "Thane",
+  "createdAt": {
+    "$date": "2024-03-31T08:15:49.659Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-31T09:03:48.273Z"
+  },
+  "__v": 0
+}]

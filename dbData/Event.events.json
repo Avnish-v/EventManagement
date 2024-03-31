@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "660808ad1f965efe9bc8fcd7"
+  },
+  "eventName": "Birthday",
+  "gallery": [
+    "../event/public/uploads/gallery-1711811281922.jpg",
+    "../event/public/uploads/gallery-1711811354061.jpg",
+    "../event/public/uploads/gallery-1711826031996.jpg"
+  ],
+  "basicPrice": 344,
+  "ultimatePrice": 44,
+  "premiumPrice": 3434,
+  "basic": [
+    "Decoration.Entertainment/Games.Food management – catering and menu.Magician.Birthday cake.Photographer"
+  ],
+  "premium": [
+    "Designing invitation cards.Balloon decoration.Selection of party venues.Decoration of party halls and venue.Organizing entertainment activities.Magician.Birthday cake.Photographer"
+  ],
+  "ultimate": [
+    "Decoration.Selecting the party themes.Magician . Birthday cake . Selection of party venues .Food management – catering and menu. Photographer"
+  ],
+  "coverImage": "../event/public/uploads/coverImage-1711802541721.jpg",
+  "createdAt": {
+    "$date": "2024-03-30T12:42:21.726Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-30T19:13:52.006Z"
+  },
+  "__v": 8
+},
+{
+  "_id": {
+    "$oid": "66080b771f965efe9bc8fce0"
+  },
+  "eventName": "Wedding",
+  "gallery": [
+    "../event/public/uploads/galleryImages-1711803255043.jpg",
+    "../event/public/uploads/gallery-1711811395060.jpg",
+    "../event/public/uploads/gallery-1711811406936.jpg",
+    "../event/public/uploads/gallery-1711825810771.jpg",
+    "../event/public/uploads/gallery-1711825826163.jpg",
+    "../event/public/uploads/gallery-1711825885982.jpg",
+    "../event/public/uploads/gallery-1711825902612.jpg"
+  ],
+  "basicPrice": 3443,
+  "ultimatePrice": 500000,
+  "premiumPrice": 4554534,
+  "basic": [
+    "Wedding invitation. Accommodation and Transportation for Guests. Wedding reception venue and Mehendi venue. Themes.Colours.Decor. Wedding Cake. Photographer."
+  ],
+  "premium": [
+    "Wedding invitation. Accommodation and Transportation. Wedding reception venue and Mehendi venue. Theme, Colour, Decor. Wedding Cake. Wedding Jewellery. Photographer, Musicians, Florists, Makeup Artist. Destination Wedding. Honeymoon Package."
+  ],
+  "ultimate": [
+    "Wedding invitation. Accommodation and Transportation for Guests. Wedding reception venue and Mehendi venue. Themes.Colours.Decor. Wedding Cake. Photographer.Musicians.Florists.Makeup Artist. Honeymoon Package"
+  ],
+  "coverImage": "../event/public/uploads/coverImage-1711803255042.jpg",
+  "createdAt": {
+    "$date": "2024-03-30T12:54:15.051Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-30T19:11:42.625Z"
+  },
+  "__v": 10
+},
+{
+  "_id": {
+    "$oid": "66080ebc1f965efe9bc8fce4"
+  },
+  "eventName": "Babyshower ",
+  "gallery": [
+    "../event/public/uploads/galleryImages-1711804092622.jpg"
+  ],
+  "basicPrice": 434,
+  "ultimatePrice": 80000,
+  "premiumPrice": 2323323,
+  "basic": [
+    "Unique and Stunning Themes and Decorations. Furniture with required lights arrangements. Lights.DJ Music systems. Catering Recommendations and Menu Development. Stage set-up."
+  ],
+  "premium": [
+    "Unique and Stunning Themes and Decorations. Furniture with required lights arrangements. Lights, DJ Music systems. Photography and Videography. Return Gifts. Cradle Decoration. Unique Entertainment and Games. Catering Recommendations and Menu Development. Balloons Arrangement. Stage set-up."
+  ],
+  "ultimate": [
+    "Unique and Stunning Themes and Decorations. Furniture with required lights arrangements. Lights.DJ Music systems. Catering Recommendations and Menu Development. Unique Entertainment and Games. Photography. Return Gifts. Stage Set-up."
+  ],
+  "coverImage": "../event/public/uploads/coverImage-1711804092621.jpg",
+  "createdAt": {
+    "$date": "2024-03-30T13:08:12.626Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-30T17:30:59.191Z"
+  },
+  "__v": 2
+}]
