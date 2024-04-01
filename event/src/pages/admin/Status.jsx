@@ -33,7 +33,7 @@ const Status = () => {
         {data.map((booking)=>{
             return <div className='flex justify-between items-center mt-4 border-b border-[#88929B] pb-2'>
                 <div className=''>
-                <p className='text-xl font-bold text-secondary-50'>{booking.event}</p>
+                <p className='text-xl font-bold text-secondary-50'>{booking.event}({booking?.plan}/{booking?.food})</p>
                 <div className='flex gap-2'>
                 <p className='text-sm text-[#88929B]'>{booking.userData.name}</p>
                 <p className='text-sm text-[#88929B]'>{booking.userData.email}</p>
@@ -46,6 +46,7 @@ const Status = () => {
                 </div>
                
                 <div className='flex gap-5'>
+                  <p className='text-lg font-medium text-[#88929B]'>{booking?.total} ₹</p>
                     <button className='p-1 w-[100px] text-center text-secondary-50 font-bold text-md bg-[#00A885] rounded-md' onClick={()=>{handleUpdate(booking?._id ,  "confirmed")}}>Accept</button>
                     <button className='p-1 w-[100px] text-center text-secondary-50 font-bold text-md bg-[red] rounded-md' onClick={()=>{handleUpdate(booking?._id ,  "rejected")}}>Reject</button>
                 </div>

@@ -8,7 +8,8 @@ const BookingSchema = new mongoose.Schema({
     bookingDate: { type: Date, required: true },
     total: { type: String },
     alternative :{type:Number ,maxlenth:10 },
-    branch : {type:String}
+    branch : {type:String},
+    food : {type:String}
 }, { timestamps: true });
 
 export  const BookingModel = mongoose.model('Booking', BookingSchema);

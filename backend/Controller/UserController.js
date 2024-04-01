@@ -153,7 +153,7 @@ export const createBooking = async (req, res) => {
     alternative,
     branch,
     guest,
-    description,
+    food,
   } = req.body;
   console.log(req.body);
   try {
@@ -167,7 +167,7 @@ export const createBooking = async (req, res) => {
       alternative,
       branch,
       guest,
-      description,
+      food
     });
 
     // Save the new booking to the database

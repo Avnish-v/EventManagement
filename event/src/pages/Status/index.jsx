@@ -27,9 +27,10 @@ const BookingStatus = () => {
         <p className='text-4xl text-secondary-50 font-bold text-center'>Order Status</p>
         <div className='flex flex-col gap-5 justify-center '>
         {data.map((booking)=>{
+          console.log(booking)
     return <div className='flex justify-between items-center mt-4 border-b border-[#88929B] pb-2'>
         <div className=''>
-        <p className='text-xl font-bold text-secondary-50'>{booking.event}</p>
+        <p className='text-xl font-bold text-secondary-50'>{booking.event} ({booking?.plan}/{booking?.food})</p>
    
         </div>
         <div className='flex flex-col justify-center items-center'>
@@ -38,7 +39,7 @@ const BookingStatus = () => {
         </div>
        
         <div className='flex gap-5 items-center'>
-          
+        <p className='text-xl text-[#88929B]'>{booking?.total} ₹</p>
        {booking?.status === "pending" && <div className='flex gap-2'> <img src={Icons.pending} width={30}/> <p className='text-[yellow] text-lg font-bold text-start'>{booking?.status}</p>
        
        <button className='h-[10] bg-[red] font-bold text-secondary-50 rounded-md w-[100px]' onClick={()=>{handleUpdate(booking?._id)}}>Cancel</button>
